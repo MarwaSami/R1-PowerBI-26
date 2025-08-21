@@ -1,5 +1,5 @@
 model Model
-  culture: en-US
+  culture: en-Ar
 
 table Employee
   measure SalesAmount = avg(Sales[Amount])
