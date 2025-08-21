@@ -2,7 +2,7 @@ model Model
   culture: en-Ar
 
 table Employee
-  measure SalesAmount = avg(Sales[Amount])
+  measure SalesAmount = max(Sales[Amount])
     formatString: "$ #,##0"
 
   column 'Order date'

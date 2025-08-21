@@ -2,7 +2,7 @@ model Model
   culture: en-US
 #Add new line comment
 table Sales
-  measure SalesAmount = SUM(Sales[Amount])
+  measure SalesAmount = max(Sales[Amount])
     formatString: "$ #,##0"
 
   column 'Order Date'
