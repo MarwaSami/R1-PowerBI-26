@@ -11,6 +11,11 @@ table employee
     dataType: dateTime
     sourceColumn: OrderDate
 
+<<<<<<< HEAD
+  column 'emp Key'
+    dataType: int64
+=======
   column 'Product Key'
     dataType: int
+>>>>>>> 2053815ab04737bea853c34653cb350a91ec41fe
     sourceColumn: ProductKey
