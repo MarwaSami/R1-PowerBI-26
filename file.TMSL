@@ -9,6 +9,6 @@ table Sales
     dataType: dateTime
     sourceColumn: OrderDate
 
-  column 'Product Key'
+  column 'emp Key'
     dataType: int64
     sourceColumn: ProductKey
