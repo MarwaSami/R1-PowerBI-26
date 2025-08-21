@@ -10,5 +10,5 @@ table Sales
     sourceColumn: OrderDate
 
   column 'Product Key'
-    dataType: int64
+    dataType: int
     sourceColumn: ProductKey
