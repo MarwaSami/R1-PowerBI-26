@@ -4,3 +4,5 @@ Id int,
 name varchar(50),
 price decimal
 );
+price flo
+);
