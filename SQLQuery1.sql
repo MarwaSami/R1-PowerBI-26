@@ -1,6 +1,6 @@
 Create Database rest;
 create table Menu(
-Id int,
+Ids int,
 names varchar(50),
 price decimal,
 );
