@@ -5,10 +5,10 @@ table employee
   measure employeeAmount = SUM(employee[Amount])
     formatString: "$ #,##0"
 
-  column 'Order Date'
+  column 'dateOrder'
     dataType: dateTime
     sourceColumn: OrderDate
 
   column 'Product Key'
-    dataType: int64
+    dataType: int
     sourceColumn: ProductKey
