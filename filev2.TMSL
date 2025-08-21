@@ -2,7 +2,7 @@ model Model
   culture: en-US
 
 table Employee
-  measure SalesAmount = SUM(Sales[Amount])
+  measure SalesAmount = avg(Sales[Amount])
     formatString: "$ #,##0"
 
   column 'Order date'
