@@ -1,0 +1,14 @@
+model Model
+  culture: en-US
+
+table Employee
+  measure SalesAmount = SUM(Sales[Amount])
+    formatString: "$ #,##0"
+
+  column 'Order Date'
+    dataType: dateTime
+    sourceColumn:Orderdate
+
+  column 'Product Key'
+    dataType: int64
+    sourceColumn: ProductKey
