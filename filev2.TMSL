@@ -1,8 +1,8 @@
 model Model
-  culture: en-US
+  culture: en-Ar
 
 table Employee
-  measure SalesAmount = SUM(Sales[Amount])
+  measure SalesAmount = avg(Sales[Amount])
     formatString: "$ #,##0"
 
   column 'Order date'
