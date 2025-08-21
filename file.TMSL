@@ -5,7 +5,7 @@ table Sales
   measure SalesAmount = SUM(Sales[Amount])
     formatString: "$ #,##0"
 
-  column 'Order Date'
+  column 'dateOrder'
     dataType: dateTime
     sourceColumn: OrderDate
 
