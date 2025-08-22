@@ -12,3 +12,7 @@ table Employee
   column 'Product Key'
     dataType: int64
     sourceColumn: ProductKey
+
+  column 'Product item'
+    dataType: varchar(50)
+    sourceColumn: Productitem 
